@@ -1,9 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import './components/fetch'
+import Fetch from "./components/fetch";
 
 function App() {
   return (
     <div className="App">
+      <Fetch />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
